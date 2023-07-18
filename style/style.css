@@ -96,6 +96,7 @@
     display: flex;
     justify-content: space-between;
     gap: 68px;
+    margin-bottom: 100px;
 }
 
 .content-container {
@@ -109,7 +110,7 @@
 }
 
 .main-content {
-    margin: 148px 240px;
+    margin: 148px 0px 0px 240px;
 }
 
 .main-content i {
@@ -117,7 +118,7 @@
 }
 
 .mini-dec-container {
-    margin-left: 40px;
+    margin-left: 100px;
 }
 
 .header-mini-title {
@@ -181,8 +182,79 @@
 .bg-images-container {
     width: 711px;
     height: 100%;
-    margin: 19px 130px 0px 0px;
+    margin: 19px 240px 0px 0px;
 }
+/* Gamer Style Start Here  */
+.gamer-container{
+    max-width: 1920px;
+    display: flex;
+    align-items: center;
+    gap: 52px;
+    margin: 55px 240px;
+    margin-bottom: 100px;
+}
+.gamer-images{
+    width: 868px;
+    height: 489px;
+}
+.gamer-images img{
+    width: 100%;
+    height: 100%;
+}
+.gamer-content{
+    text-align: right;
+    width: 500px;
+    height: 489px;
+}
+.gamer-title{
+    text-align: right;
+    font-size: 3rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 24px;
+
+}
+.gamer-description{
+    color: #534C64;
+    text-align: right;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 32px;
+}
+.btn{
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border: none;
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 48px;
+    margin-bottom: 24px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+}
+.gamer-bottom-description{
+    color: #534C64;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 45px;
+    width: 520px;
+    height: 120px;
+}
+.gamer-span{
+    color: #534C64;
+    text-align: right;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 45px;
+}
+/* Gamer Style Ends Here  */
 
 /* Header Style Ends Here  */
 
@@ -200,26 +272,53 @@
 
     .header-content-container {
         flex-direction: column-reverse;
+        align-items: center;
     }
 
     .content-container {
         width: 100%;
         height: 700px;
-        margin: auto;
+        padding-top: 200px;
 
     }
 
     .main-content {
-        margin: 148px 1%;
+        margin:auto;
     }
-
+    .mini-dec-container {
+        margin-left: 40px;
+    }
     .bg-images-container {
-        width: 80%;
-        height: 100%;
+        width: 100%;
+        height: 700px;
         margin: auto;
     }
-
-    .bg-images-container img {
+    .bg-images-container img{
         width: 100%;
+    }
+    .gamer-container{
+        flex-direction: column;
+        margin: 55px 0px;
+    }
+    .gamer-images{
+        width: 100%;
+        height: 100%;
+    }
+  
+    .gamer-content{
+        text-align: center;
+        width: 100%;
+        height: 100%;
+    }
+    .gamer-bottom-description{
+        width: 100%;
+        height: 120px;
+    }
+    .gamer-title{
+        text-align: center;
+    
+    }
+    .gamer-description{
+        text-align: center;
     }
 }
