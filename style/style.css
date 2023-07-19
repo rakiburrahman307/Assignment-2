@@ -386,11 +386,13 @@
     justify-content: space-around;
     align-items: center;
     gap: 20px;
+    
 
 }
 
 .play-games-content {
     width: 453px;
+   
 }
 
 .play-games-title {
@@ -427,7 +429,7 @@
     width: 634.833px;
     height: 650px;
     border-radius: 8px;
-    margin-bottom: 200px;
+
 }
 
 .play-games-img img {
@@ -460,6 +462,7 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
+    margin-top: 200px;
 }
 
 .btn-primary {
