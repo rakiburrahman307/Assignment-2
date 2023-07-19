@@ -6,6 +6,7 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+    
 }
 
 /* Root Style Ends Here  */
@@ -577,10 +578,8 @@
 
 }
 
+
 /* Footer Section Ends Here  */
-.hide {
-    display: none;
-}
 
 @media screen and (max-width:576px) {
     .nav-container {
@@ -592,7 +591,6 @@
 
     .nav-container ul {
         flex-direction: column;
-        margin-bottom: 100px;
     }
 
     .header-content-container {
@@ -685,15 +683,17 @@
 
     .play-games-container {
         flex-direction: column;
+        gap: 100px;
         margin: 0px 0px;
 
     }
 
     .play-games-content {
-        width: 100%;
+        width: 95%;
     }
 
     .play-games-title {
+        width: 95%;
         height: auto;
         text-align: center;
 
@@ -705,60 +705,59 @@
     }
 
     .play-games-description {
-        width: 100%;
-        height: 90px;
+        width: 90%;
+        height: auto;
         margin: auto;
         text-align: center;
 
     }
-
     .play-games-img {
-        width: 80%;
-        height: 600px;
+        text-align: center;
+        width: 95%;
+        height: 650px;
         border-radius: 8px;
+        margin-bottom: 0;
     }
-
+    
     .play-games-img img {
         width: 100%;
         height: 100%;
-        margin-left: 0px;
+        margin-left: 0;
     }
-
+    
     .inner-img {
-        width: 80%;
-        height: 250px;
+        width: 95%;
+        height: 365.083px;
         border-radius: 8px;
         position: relative;
-        bottom: 200px;
-        right: 100px;
+        bottom: 280px;
+        right: 150px;
     }
-
+    
     .inner-img img {
         width: 100%;
         height: 100%;
     }
-
+ 
     .button-section-container {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 5px;
-    }
-
-    .btn-primary {
-        width: 140px;
-        height: 40px;
-        font-size: 0.6rem;
-        gap: 0.5rem;
-        border-radius: 50px;
+      }
+      .btn-primary {
+        width: 116px;
+        height: 30px;
+        font-size: 0.5rem;
+        gap: 0.4rem;
+        border-radius: 20px;
         margin: 0 auto;
-    }
-
-    .btn-primary img {
-        width: 25px;
-        height: 25px;
+      }
+      .btn-primary img {
+        width: 18px;
+        height: 18px;
         margin-left: 0px;
-        border-radius: 25px;
-    }
+        border-radius: 18px;
+      }
 
     .footer-container {
         max-width: 1920px;
